@@ -1,5 +1,3 @@
-package SomeTasks
-
 trait DollarConversion {
   def get: BigDecimal
   def toRub(exchangeRate: BigDecimal) = new Ruble(this.get * exchangeRate)
